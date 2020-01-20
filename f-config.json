@@ -1,0 +1,106 @@
+{
+    "method": "GET",
+    "action": "",
+    "fields": [
+        {
+            "type": "text",
+            "required": true,
+            "name": "fname",
+            "label": "First name",
+            "classes": "",
+            "id": ""
+        },
+        {
+            "type": "text",
+            "label": "Last name",
+            "name": "lname",
+            "classes": "",
+            "id": ""
+        },
+        {
+            "type": "select",
+            "required": true,
+            "label": "Where did you hear about",
+            "name": "wdyha",
+            "classes": "",
+            "id": "",
+            "options": [
+                {
+                    "text": "YouTube"
+                },
+                {
+                    "text": "Twitch",
+                    "selected": true
+                },
+                {
+                    "text": "Discord"
+                },
+                {
+                    "text": "Other"
+                }
+            ]
+        },
+        {
+            "type": "textarea",
+            "label": "This is a textarea",
+            "name": "tarea",
+            "classes": "",
+            "id": "",
+            "rows": 3,
+            "cols": 40
+        },
+        {
+            "type": "radio",
+            "label": "Where did you hear about",
+            "name": "wdyharad",
+            "classes": "",
+            "id": "",
+            "options": [
+                {
+                    "text": "YouTube"
+                },
+                {
+                    "text": "Twitch",
+                    "checked": true
+                },
+                {
+                    "text": "Discord"
+                },
+                {
+                    "text": "Other"
+                }
+            ]
+        },
+        {
+            "type": "checkbox",
+            "label": "Where did you hear about",
+            "name": "wdyhache",
+            "classes": "",
+            "id": "",
+            "options": [
+                {
+                    "text": "YouTube"
+                },
+                {
+                    "text": "Twitch",
+                    "checked": true
+                },
+                {
+                    "text": "Discord"
+                },
+                {
+                    "text": "Other"
+                }
+            ]
+        },
+        {
+            "type": "password",
+            "label": "Password",
+            "name": "pwd",
+            "classes": "",
+            "id": "",
+            "required": true
+        }
+    ],
+    "submitText": "Send"
+}
