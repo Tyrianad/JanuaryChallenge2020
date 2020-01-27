@@ -27,7 +27,7 @@ $success_submit = $formManager->interceptSubmit();
         if($success_submit)
         {
             ?>
-            <div class="alert alert-success">
+            <div class="alert alert-success mt-4">
                 Form submitted!
             </div>
         <?php

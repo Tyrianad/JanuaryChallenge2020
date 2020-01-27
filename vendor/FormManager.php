@@ -128,7 +128,7 @@ class FormManager {
 
         $xml->formatOutput = true;
 
-        return file_put_contents('submissions/sub-'.time().'.xml',$xml->saveXML()) === false;
+        return file_put_contents('submissions/sub-'.time().'.xml',$xml->saveXML()) !== false;
 
     }
 
