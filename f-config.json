@@ -20,23 +20,27 @@
         {
             "type": "select",
             "required": true,
-            "label": "Where did you hear about",
+            "label": "Where did you hear about?",
             "name": "wdyha",
             "classes": "",
             "id": "",
             "options": [
                 {
-                    "text": "YouTube"
+                    "text": "YouTube",
+                    "value": "youtube"
                 },
                 {
                     "text": "Twitch",
+                    "value": "twitch",
                     "selected": true
                 },
                 {
-                    "text": "Discord"
+                    "text": "Discord",
+                    "value": "discord"
                 },
                 {
-                    "text": "Other"
+                    "text": "Other",
+                    "value": "other"
                 }
             ]
         },
@@ -51,45 +55,54 @@
         },
         {
             "type": "radio",
-            "label": "Where did you hear about",
+            "label": "Where did you hear about?",
             "name": "wdyharad",
-            "classes": "",
+            "classes": "form-check-inline",
             "id": "",
             "options": [
                 {
-                    "text": "YouTube"
+                    "text": "YouTube",
+                    "value": "youtube"
                 },
                 {
                     "text": "Twitch",
+                    "value": "twitch"
+                },
+                {
+                    "text": "Discord",
+                    "value": "discord"
+                },
+                {
+                    "text": "Other",
+                    "value": "other",
                     "checked": true
-                },
-                {
-                    "text": "Discord"
-                },
-                {
-                    "text": "Other"
                 }
             ]
         },
         {
             "type": "checkbox",
-            "label": "Where did you hear about",
+            "label": "Where did you hear about?",
             "name": "wdyhache",
-            "classes": "",
+            "classes": "form-check-inline",
             "id": "",
             "options": [
                 {
-                    "text": "YouTube"
-                },
-                {
-                    "text": "Twitch",
+                    "text": "YouTube",
+                    "value": "youtube",
                     "checked": true
                 },
                 {
-                    "text": "Discord"
+                    "text": "Twitch",
+                    "value": "twitch"
                 },
                 {
-                    "text": "Other"
+                    "text": "Discord",
+                    "value": "discord",
+                    "checked": true
+                },
+                {
+                    "text": "Other",
+                    "value": "other"
                 }
             ]
         },
