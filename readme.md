@@ -1,18 +1,18 @@
-###Level 1 - Create JSON form config
+### Level 1 - Create JSON form config
 
 f-config.json
 
 
-###Level 2 Convert this into a HTML form
+### Level 2 Convert this into a HTML form
 
 FormManager->getHtml();
 
-###Level 3 Handle form submission via PHP
-###Level 4 Create an XML file per form submission
+### Level 3 Handle form submission via PHP
+### Level 4 Create an XML file per form submission
 
 Function used: FormManager->interceptSubmit()
 
-###Improvements:
+### Improvements:
 
 * Add validation for json configuration
 * Add form validation
