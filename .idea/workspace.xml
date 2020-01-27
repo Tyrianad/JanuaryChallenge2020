@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1365cdb2-171a-4062-88dd-5100d1dd2df7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/f-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/f-config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/Fields.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/Fields.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/FormManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/FormManager.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580130457638</updated>
       <workItem from="1580130458736" duration="1661000" />
-      <workItem from="1580132562189" duration="4751000" />
+      <workItem from="1580132562189" duration="4943000" />
     </task>
     <servers />
   </component>

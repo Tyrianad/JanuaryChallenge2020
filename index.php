@@ -23,6 +23,24 @@ $success_submit = $formManager->interceptSubmit();
 <body class="container">
 <div class="row">
     <div class="col-8 offset-2">
+        <?php
+        if($success_submit)
+        {
+            ?>
+            <div class="alert alert-success">
+                Form submitted!
+            </div>
+        <?php
+        }
+        else
+        {
+            ?>
+            <div class="alert alert-danger">
+                There was an error while processing your request!
+            </div>
+        <?php
+        }
+        ?>
         <div class="jumbotron mt-4">
             <h3 class="pb-3">Please fill in all the informations</h3>
         <?php
